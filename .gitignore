@@ -1,0 +1,50 @@
+
+# This .gitignore file should be placed at the root of your Unity project directory
+
+# Ignore the following Unity folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+ProjectSettings/ProjectVersion.txt
+
+# Ignore Unity auto-generated assets
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+
+# Ignore Unity crash reports and build logs
+*.pidb.meta
+*.pdb.meta
+
+# Ignore Script Assemblies
+*.dll
+*.exe
+*.so
+*.dylib
+*.a
+*.lib
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore gradle files
+.gradle/
+
+# Ignore crashlytics auto-generated files
+/Assets/Plugins/Android/FirebaseCrashlytics/build/
+build/
+
